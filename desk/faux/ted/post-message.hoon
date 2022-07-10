@@ -16,6 +16,7 @@
   |=  [message=tape author=@p]
   ^-  json
   =/  full-text
+    ?:  =(~littel-wolfur author)  message
     ;:  weld
       (point-text:faux-discord author)  ": "
       message
